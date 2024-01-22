@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando background</title>
+    <style>
+        body{
+            background-image: linear-gradient(90deg, rgb(80, 186, 235),rgb(182, 104, 169),rgb(100, 16, 100));     
+            width:1500px ;      
+            margin:auto;
+             
+
+        } 
+        html{
+            background-color: rgba(4, 1, 27, 0.623);
+        }
+
+        h1{
+            text-align: center;
+            text-decoration: underline solid blue;
+            color:rgb(218, 143, 158);
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.616);
+            font: italic bolder 2.5em Arial ;
+        }
+        p{
+            color:rgb(241, 245, 247);
+            text-indent: 20px;          
+            padding: 20px;
+            text-align: justify;
+        }
+
+        picture{
+            margin: auto;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Aprimorando Conceitos de Background Image</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem repellat minus id hic ipsam quos, veniam, exercitationem ad quidem ea distinctio rem omnis voluptatibus porro! Id saepe illo blanditiis quos.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem repellat minus id hic ipsam quos, veniam, exercitationem ad quidem ea distinctio rem omnis voluptatibus porro! Id saepe illo blanditiis quos.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem repellat minus id hic ipsam quos, veniam, exercitationem ad quidem ea distinctio rem omnis voluptatibus porro! Id saepe illo blanditiis quos.</p>
+
+    <picture>
+        <source media="(max-width:750px)" srcset="imagens/dandroids-pq.png" type="image/png">
+        <source media="(min-width:1050px)" srcset="imagens/bugdroid.png" type="image/png">
+        <img src="imagens/dan-droids.png" alt="A Imgem flexível funciona">
+    </picture>
+    
+</body>
+</html>
